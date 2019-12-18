@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2019-08-01T00:13:00+02:00" product-name="epochenapoleon_ce_normdata">
+    <header/>
+    <body>
+      <trans-unit id="tt_content.tx_epochenapoleoncenormdata_gnd" xml:space="preserve">
+        <source>GND</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_epochenapoleoncenormdata_lccn" xml:space="preserve">
+        <source>LCCN</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_epochenapoleoncenormdata_viaf" xml:space="preserve">
+        <source>VIAF</source>
+      </trans-unit>
+      <trans-unit id="tt_content.CType.div._epochenapoleoncenormdata_" xml:space="preserve">
+        <source>epochenapoleon_ce_normdata</source>
+      </trans-unit>
+      <trans-unit id="tt_content.CType.epochenapoleoncenormdata_epochenapoleon_normdata" xml:space="preserve">
+        <source>Personal Norm Data</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

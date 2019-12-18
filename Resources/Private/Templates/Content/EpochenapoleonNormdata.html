@@ -1,0 +1,44 @@
+<span class="person">
+	<h4 class="person">Normdaten</h4>
+
+	<p class="person-entry">
+		<span class="person-cat">VIAF:</span>
+
+		<f:if condition="{data.tx_epochenapoleoncenormdata_viaf}">
+			<f:then>
+				<span class="person-link">
+					<a href="http://viaf.org/{data.tx_epochenapoleoncenormdata_viaf}">{data.tx_epochenapoleoncenormdata_viaf}</a>
+				</span>
+			</f:then>
+			<f:else>
+				<span class="person-nolink">Kein Eintrag</span>
+			</f:else>
+		</f:if>
+	</p>
+	<p class="person-entry">
+		<span class="person-cat">GND:</span>
+		<f:if condition="{data.tx_epochenapoleoncenormdata_gnd}">
+			<f:then>
+				<span class="person-link">
+					<a href="https://d-nb.info/gnd/{data.tx_epochenapoleoncenormdata_gnd}">{data.tx_epochenapoleoncenormdata_gnd}</a>
+				</span>
+			</f:then>
+			<f:else>
+				<span class="person-nolink">Kein Eintrag</span>
+			</f:else>
+		</f:if>
+	</p>
+	<p class="person-entry">
+		<span class="person-cat">LCCN:</span>
+			<f:if condition="{data.tx_epochenapoleoncenormdata_lccn}">
+				<f:then>
+					<span class="person-link">
+						<a href="http://id.loc.gov/authorities/names/{data.tx_epochenapoleoncenormdata_lccn}">{data.tx_epochenapoleoncenormdata_lccn}</a>
+					</span>
+				</f:then>
+				<f:else>
+				<span class="person-nolink">Kein Eintrag</span>
+			</f:else>
+		</f:if>
+	</p>
+</span>

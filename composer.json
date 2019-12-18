@@ -1,0 +1,27 @@
+{
+    "name": "epochenapoleon/epochenapoleon-ce-normdata",
+    "description": "Content Element for personal Norm Datas like VIAF, GND, LCCN",
+    "type": "typo3-cms-extension",
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "typo3/cms-backend": "^9.5",
+        "typo3/cms-core": "^9.5",
+        "typo3/cms-extbase": "^9.5",
+        "typo3/cms-fluid": "^9.5",
+        "typo3/cms-frontend": "^9.5"
+    },
+    "replace": {
+        "epochenapoleon-ce-normdata": "self.version",
+        "typo3-ter/epochenapoleon-ce-normdata": "self.version"
+    },
+    "autoload": {
+        "psr-4": {
+            "EPOCHENAPOLEON\\EpochenapoleonCeNormdata\\": "Classes/"
+        }
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "epochenapoleon_ce_normdata"
+        }
+    }
+}

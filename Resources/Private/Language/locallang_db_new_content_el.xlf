@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2019-08-01T00:13:00+02:00" product-name="epochenapoleon_ce_normdata">
+    <header/>
+    <body>
+      <trans-unit id="wizards.newContentElement.epochenapoleon_normdata_title" xml:space="preserve">
+        <source>Personal Norm Data</source>
+      </trans-unit>
+      <trans-unit id="wizards.newContentElement.epochenapoleon_normdata_description" xml:space="preserve">
+        <source>Box with standard personal data (VIAF, GND, LCCN)</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
